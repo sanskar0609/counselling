@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-myanmar-sans-pro: "Myanmar Sans Pro";
+  --font-archivo: Archivo;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-mini: 15px;
+
+  /* Colors */
+  --color-darkgray: #a0a0a0;
+  --color-powderblue: #b0d7d5;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-silver: #c7c7c7;
+  --color-silver-100: #b9b9b9;
+  --color-darkslategray: #2e2e2e;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-31xl: 50px;
+}

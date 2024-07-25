@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-myanmar-sans-pro: "Myanmar Sans Pro";
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+}

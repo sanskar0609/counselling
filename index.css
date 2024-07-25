@@ -1,0 +1,281 @@
+.iphone-8-1-child {
+  position: absolute;
+  top: calc(50% - 312.5px);
+  left: calc(50% - 161.5px);
+  width: 79px;
+  height: 73px;
+  object-fit: cover;
+}
+.iphone-8-1-child:hover {
+  width: 180px;
+  height: 180px;
+}
+.home1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 700;
+  text-shadow: 1px 0 0#93966e, 0 1px 0#93966e, -1px 0 0#93966e, 0-1px 0#93966e;
+}
+.home,
+.iphone-8-1-item {
+  position: absolute;
+  top: calc(50% - 289.5px);
+  left: calc(50% - 114.5px);
+  width: 229px;
+  height: 26px;
+}
+.iphone-8-1-item {
+  top: calc(50% - 301.5px);
+  left: calc(50% + 114.5px);
+  width: 59px;
+  height: 50px;
+  object-fit: cover;
+}
+.iphone-8-1-item:hover {
+  width: 170px;
+  height: 170px;
+}
+.collage-name,
+.component-21-child {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.component-21-child {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  width: 60.2%;
+  right: 0;
+  bottom: 0;
+  left: 39.8%;
+  overflow: hidden;
+}
+.collage-name {
+  width: 35.12%;
+  left: 0;
+  text-transform: lowercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component-21,
+.component-23 {
+  position: absolute;
+  top: 24px;
+  left: 13px;
+  width: 299px;
+  height: 27px;
+}
+.component-23 {
+  top: 123px;
+}
+.component-22-child {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  height: 100%;
+  width: 60.2%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 39.8%;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+}
+.component-22,
+.frame-child {
+  position: absolute;
+  top: 69px;
+  left: 15px;
+  width: 299px;
+  height: 27px;
+}
+.frame-child {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-silver-100);
+  height: 26.04%;
+  width: 68.54%;
+  top: 57.83%;
+  right: 14.66%;
+  bottom: 16.13%;
+  left: 16.8%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.component-22,
+.frame-child1 {
+  position: absolute;
+  top: 69px;
+  left: 15px;
+  width: 299px;
+  height: 27px;
+}
+.frame-child1 {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-silver-100);
+  height: 26.04%;
+  width: 68.54%;
+  top: 57.83%;
+  right: 14.66%;
+  bottom:  16.13%;
+  left: 16.8%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.select-cap {
+  position: absolute;
+  height: 39.62%;
+  width: 75.73%;
+  top: 10.38%;
+  left: 15.53%;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.select-cap1 {
+  position: absolute;
+  height: 39.62%;
+  width: 75.73%;
+  top: 10.38%;
+  left: 15.53%;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent {
+  position: absolute;
+  height: 22.46%;
+  width: 31.21%;
+  top: 37.29%;
+  right: 66.36%;
+  bottom: 40.25%;
+  left: 2.42%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  font-family: var(--font-archivo);
+}
+.frame-parent1 {
+  position: absolute;
+  height: 22.46%;
+  width: 31.21%;
+  top: 63%;
+  right: 66.36%;
+  bottom: 40.25%;
+  left: 2.42%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  font-family: var(--font-archivo);
+}
+
+
+
+.component-child,
+.general {
+  position: absolute;
+  top: 0;
+  width: 102px;
+  height: 28px;
+}
+.component-child {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-silver-100);
+  left: 96px;
+  overflow: hidden;
+}
+.general {
+  left: -1px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-group {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-white);
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.component-parent,
+.submit {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.component-parent {
+  top: 177px;
+  left: 123px;
+  width: 198px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8px;
+  font-family: var(--font-archivo);
+}
+.submit {
+  height: calc(100% - 20px);
+  width: calc(100% - 49px);
+  top: 9px;
+  left: 23px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  justify-content: center;
+}
+.component-21-parent,
+.submit-wrapper {
+  position: absolute;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+}
+.submit-wrapper {
+  top: calc(50% + 172px);
+  left: calc(50% - 96px);
+  background-color: #1466a1;
+  width: 183px;
+  height: 44px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.component-21-parent {
+  top: calc(50% - 208.5px);
+  left: calc(50% - 164.5px);
+  background-color: var(--color-powderblue);
+  width: 330px;
+  height: 472px;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-myanmar-sans-pro);
+}
+.iphone-8-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkgray);
+  height: 667px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 20px;
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}
+button{
+  top: calc(50% + 172px);
+  left: calc(50% - 96px);
+  background-color: #1466a1;
+  width: 183px;
+  height: 44px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  border: 4px;
+}

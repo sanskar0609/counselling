@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Myanmar Sans Pro:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="iphone-8-1">
+      <img
+        class="iphone-8-1-child"
+        id="logo"
+        alt=""
+        src="./public/ellipse-4@2x.png"
+      />
+
+      <div class="home">
+        <i class="home1">cut off</i>
+      </div>
+      <img
+        class="iphone-8-1-item"
+        id="logo2"
+        alt=""
+        src="./public/ellipse-5@2x.png"
+      />
+
+      <form action="submit.php" method="POST">
+        <div class="component-21-parent" id="main">
+          <div class="component-21">
+            <input
+              class="component-21-child"
+              id="clg"
+              name="college_name"
+              value="collage name"
+              type="text"
+            />
+
+            <div class="collage-name">COLLAGE NAME</div>
+          </div>
+          <div class="component-23">
+            <select class="component-21-child" name="college_type">
+              <option value="type">Type</option>
+              <option value="government">government</option>
+              <option value="autonomous">autonomous</option>
+              <option value="govt-aided">govt-aided</option>
+              <option value="un-aided">un-aided</option>
+            </select>
+
+            <div class="collage-name">SELECT COLLAGE TYPE</div>
+          </div>
+         
+          
+          <div class="component-22">
+            <select class="component-22-child" name="city">
+              <option value="Mumbai">Mumbai</option>
+              <option value="Pune">Pune</option>
+              <option value="Nagpur">Nagpur</option>
+              <option value="Nashik">Nashik</option>
+              <option value="Aurangabad">Aurangabad</option>
+              <option value="Solapur">Solapur</option>
+              <option value="Amravati">Amravati</option>
+              <option value="Kolhapur">Kolhapur</option>
+              <option value="Jalgaon">Jalgaon</option>
+              <option value="Sangli">Sangli</option>
+              <option value="Nanded">Nanded</option>
+              <option value="Ahmednagar">Ahmednagar</option>
+              <option value="Latur">Latur</option>
+              <option value="Ratnagiri">Ratnagiri</option>
+              <option value="Chandrapur">Chandrapur</option>
+              <option value="Wardha">Wardha</option>
+              <option value="Dhule">Dhule</option>
+              <option value="Satara">Satara</option>
+              <option value="Beed">Beed</option>
+              <option value="Parbhani">Parbhani</option>
+              <option value="Yavatmal">Yavatmal</option>
+              <option value="Thane">Thane</option>
+              <option value="Raigad">Raigad</option>
+              <option value="Sindhudurg">Sindhudurg</option>
+              <option value="Buldhana">Buldhana</option>
+              <option value="Gondia">Gondia</option>
+              <option value="Akola">Akola</option>
+              <option value="Osmanabad">Osmanabad</option>
+              <option value="Bhandara">Bhandara</option>
+            </select>
+
+            <div class="collage-name">SELECT CITY</div>
+          </div>
+
+          <div class="frame-parent" id="cap">
+            <select class="frame-child" name="cap_round">
+              <option value="cap1">cap 1</option>
+              <option value="cap2">cap 2</option>
+              <option value="cap3">cap 3</option>
+            </select>
+            <div class="select-cap">SELECT CAP</div>
+            
+          </div>
+          <div class="frame-parent1" id="cap">
+            <select class="frame-child1" name="branch">
+              <option value="CO">CO/CS</option>
+              <option value="IT">IT</option>
+              <option value="AIML">AIML</option>
+              <option value="ME">ME</option>
+              <option value="CIVIL">CIVIL</option>
+              <option value="EEE">ECE/EEE/E&TC</option>
+              <option value="EE"></option>
+            </select>
+            <div class="select-cap1">SELECT Branch</div>
+            
+          </div>
+
+
+
+        
+          
+          
+          <div class="component-parent" id="cutoff">
+            <div class="frame-group">
+              <input class="component-child" id="inpu1" name="general" type="text" value="0" />
+
+              <div class="general">GENERAL</div>
+            </div>
+            <div class="frame-group">
+              <input class="component-child" id="inpu2" name="obc" type="text" value="0" />
+
+              <div class="general">OBC</div>
+            </div>
+            <div class="frame-group">
+              <input class="component-child" id="inpu3" name="sc" type="text" value="0" />
+
+              <div class="general">SC</div>
+            </div>
+            <div class="frame-group">
+              <input class="component-child" id="inpu4" name="st" type="text" value="0" />
+
+              <div class="general">ST</div>
+            </div>
+            <div class="frame-group">
+              <input class="component-child" id="inpu5" name="nt" type="text" value="0" />
+
+              <div class="general">NT</div>
+            </div>
+            <div class="frame-group">
+              <input class="component-child" id="inpu6" name="ews" type="text" value="0" />
+
+              <div class="general">EWS</div>
+            </div>
+          </div>
+          <div class="submit-wrapper">
+            <button type="submit">add collage</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('input[type="text"]').forEach(input => {
+          input.addEventListener('focus', function() {
+            if (this.value === 'collage name' || this.value === '0') {
+              this.value = '';
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
